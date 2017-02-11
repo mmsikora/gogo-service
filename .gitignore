@@ -22,3 +22,11 @@ _testmain.go
 *.exe
 *.test
 *.prof
+coverage.out
+_builds/
+_projects/
+_steps/
+.wercker*
+.gitignore
+
+gogo-service
