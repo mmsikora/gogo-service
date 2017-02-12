@@ -69,11 +69,3 @@ deploy:
        repository: mmsikora/gogo-service
        registry: https://registry.hub.docker.com
 
-   - cng/cf-deploy:
-       api: $API
-       user: $USER
-       password: $PASSWORD
-       org: $ORG
-       space: $SPACE
-       appname: gogo-service
-       docker_image: mmsikora/gogo-service
