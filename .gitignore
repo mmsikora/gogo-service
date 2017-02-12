@@ -28,5 +28,6 @@ _projects/
 _steps/
 .wercker*
 .gitignore
+glide.lock
 
 gogo-service

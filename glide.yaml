@@ -1,0 +1,10 @@
+package: github.com/mmsikora/gogo-service
+import:
+- package: github.com/codegangsta/negroni
+  version: v0.2.0
+- package: github.com/gorilla/mux
+  version: v1.3.0
+- package: github.com/unrolled/render
+- package: github.com/mmsikora/gogo-service
+  subpackages:
+  - service
