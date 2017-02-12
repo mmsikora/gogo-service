@@ -1,3 +1,3 @@
 # gogo-service
 
-api service written in go
+API service written in go
