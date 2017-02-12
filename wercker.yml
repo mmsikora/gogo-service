@@ -75,5 +75,5 @@ deploy:
        password: $PASSWORD
        org: $ORG
        space: $SPACE
-       appname: mmsikora-gogo-service
+       appname: gogo-service
        docker_image: mmsikora/gogo-service
