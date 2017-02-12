@@ -29,5 +29,6 @@ _steps/
 .wercker*
 .gitignore
 glide.lock
+vendor*
 
 gogo-service

@@ -31,7 +31,7 @@ func initRoutes(mx *mux.Router, formatter *render.Render) {
 }
 
 func testHandler(formatter *render.Render) http.HandlerFunc {
-  return func(w http.ResponseWritter, req *http.Request) {
+  return func(w http.ResponseWriter, req *http.Request) {
     formatter.JSON(w, http.StatusOK,
     struct{Test string}{"This is a test"}) 
   }
